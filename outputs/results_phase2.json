@@ -1,0 +1,41 @@
+{
+  "cityscapes_val": {
+    "mIoU": 0.6445,
+    "per_class_IoU": {
+      "road": 0.9693,
+      "sidewalk": 0.7664,
+      "building": 0.8993,
+      "wall": 0.5143,
+      "fence": 0.4478,
+      "pole": 0.5841,
+      "traffic light": 0.6126,
+      "traffic sign": 0.6997,
+      "vegetation": 0.9053,
+      "terrain": 0.5626,
+      "sky": 0.9384,
+      "person": 0.7429,
+      "rider": 0.4299,
+      "car": 0.9074,
+      "truck": 0.4428,
+      "bus": 0.4211,
+      "train": 0.2834,
+      "motorcycle": 0.4146,
+      "bicycle": 0.704
+    },
+    "num_samples": 500
+  },
+  "camvid_cross_dataset": {
+    "mIoU": 0.7457,
+    "per_category_IoU": {
+      "construction": 0.8606,
+      "flat": 0.9757,
+      "human": 0.5421,
+      "nature": 0.7281,
+      "object": 0.4459,
+      "sky": 0.8588,
+      "vehicle": 0.8089
+    },
+    "num_samples": 701
+  },
+  "note": "camvid_cross_dataset은 이 decoder 학습에 전혀 쓰이지 않은 701장 전체(train+val+test)에 대한 완전 held-out 평가"
+}

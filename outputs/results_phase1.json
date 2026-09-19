@@ -1,0 +1,21 @@
+{
+  "split": "test",
+  "num_samples": 168,
+  "mIoU": 0.7179,
+  "per_class_IoU": {
+    "Sky": 0.9267,
+    "Building": 0.8833,
+    "Pole": 0.3081,
+    "Road": 0.9499,
+    "Pavement": 0.7917,
+    "Tree": 0.8148,
+    "SignSymbol": 0.5433,
+    "Fence": 0.5372,
+    "Car": 0.8656,
+    "Pedestrian": 0.5735,
+    "Bicyclist": 0.7028
+  },
+  "ignore_index": 255,
+  "resolution": 512,
+  "ckpt": "checkpoints/best_decoder.pt"
+}

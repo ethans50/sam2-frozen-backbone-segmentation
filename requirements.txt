@@ -1,0 +1,12 @@
+# torch / torchvision are installed separately with the CUDA 12.6 wheel index
+# (see README "Setup") because the correct wheel depends on the local CUDA driver.
+# sam2 is installed editable from the `sam2` submodule, not from PyPI.
+numpy==2.4.6
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+pandas==3.0.5
+matplotlib==3.11.1
+torchmetrics==1.9.0
+cityscapesscripts==2.2.4
+wandb==0.30.0
+tqdm==4.70.0

@@ -1,0 +1,22 @@
+# Datasets: large, and fully reproducible via scripts/build_class_map*.py
+# from the official CamVid / Cityscapes distributions. See README "Setup".
+/data/
+
+# SAM2 base checkpoints: large binaries, downloaded separately (see README).
+# Our own trained decoder weights are small (~2.7MB) and tracked directly.
+checkpoints/*.pt
+!checkpoints/best_decoder.pt
+!checkpoints/best_decoder_cityscapes.pt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Weights & Biases local run data (synced to the cloud; not for git)
+wandb/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
